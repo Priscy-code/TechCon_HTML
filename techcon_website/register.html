@@ -18,20 +18,22 @@
         </nav>
     </header>
     <main>
-        <form action="" method="post">
+        <form action="/submit registration " method="post">
             <input type="Fullname" name="fullname" placeholder="fullname">
             <label for="fullname" >Fullname</label>
 
            
-            <input type="Email" name="email" placeholder="example@gmail.com">
+            <input type="Email" name="email" placeholder="example@gmail.com" required>
             <label for="Email" Email>Email</label>
 
            
-            <input type="password" name="password" placeholder="enter password">
+            <input type="password" name="password" placeholder="enter password" required>
             <label for="Passwird">Password</label>
 
+            <input type="confrim password" name="confirm password" placeholder="enter password" required>
+            <label for="Passwird">confirm Password</label>
            
-            <input type="checkbox" id="terms" name="terms">
+            <input type="checkbox" id="terms" name="terms" required>
             <label for="terms">Terms and condition</label>
 
             <button type="submit">Submit</button>
