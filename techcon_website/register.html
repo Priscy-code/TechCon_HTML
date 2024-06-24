@@ -19,22 +19,30 @@
     </header>
     <main>
         <form action="/submit registration " method="post">
-            <input type="Fullname" name="fullname" placeholder="fullname">
-            <label for="fullname" >Fullname</label>
+            <div>
+                <input type="Fullname" name="fullname" placeholder="fullname">
+                <label for="fullname">Fullname</label>
+            </div>
 
-           
+           <div>
             <input type="Email" name="email" placeholder="example@gmail.com" required>
             <label for="Email" Email>Email</label>
+           </div>
 
-           
+          <div>
             <input type="password" name="password" placeholder="enter password" required>
             <label for="Passwird">Password</label>
-
+          </div> 
+    
+          <div>
             <input type="confrim password" name="confirm password" placeholder="enter password" required>
             <label for="Passwird">confirm Password</label>
+          </div>
            
+          <div>
             <input type="checkbox" id="terms" name="terms" required>
             <label for="terms">Terms and condition</label>
+          </div>
 
             <button type="submit">Submit</button>
         </form>
