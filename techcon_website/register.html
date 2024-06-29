@@ -18,26 +18,28 @@
         </nav>
     </header>
     <main>
-        <form action="/submit registration " method="post">
+        <form action="">
             
             <label for="fullname">Fullname</label>
             <input type="text" name="fullname" id="fullname ">
         
             <label for="Email" Email>Email address</label>
-            <input type="text" id="email" >
+            <input type="text" id="email" name="email" >
 
 
             <label for="Password">Password</label>
-            <input type="text" id="password"  >
+            <input type="text" id="password" name="password">
         
     
-            <label for="Password">Confirm Password</label>
-            <input id="text" type="confrim password"  >
+            <label for="Password">Confirm password</label>
+            <input id="text" type="confrim password" name="confirm password"  >
         
            
 
-            <label for="terms">Terms and condition</label>
-            <input type="checkbox" id="terms" name="terms" >
+            <label for="">
+                <input type="checkbox" name="terms" id="checkbox" required>
+                <a href="" target="_blank">Terms and Conditions </a>
+            </label>
         
 
             <button type="submit">Submit</button>
